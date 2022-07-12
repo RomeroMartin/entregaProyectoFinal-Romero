@@ -1,0 +1,27 @@
+.verde{
+    color: $verde;
+    position: absolute;
+    margin-top: 50%;
+    font-size: 50px;
+}
+
+.beige{
+    color: $beige;
+    position: absolute;
+    margin-top: 50%;
+    font-size: 50px;
+}
+
+.formatoCategoria{
+    border-radius: 5%;
+    margin: 5px;
+    padding: 2px;
+}
+
+.zoom {
+    transition: transform .2s; 
+}
+ 
+.zoom:hover {
+    transform: scale(1.07); 
+}
