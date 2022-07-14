@@ -1,0 +1,33 @@
+.tarjetaPromo{
+    border: double;
+    border-radius: 13px;
+    border-color: $verdeClaro;
+    min-width: 375px;
+    max-width: 992px;
+    height: auto;
+    margin: 10px;
+    padding: 5px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.textoTarjeta{
+    h3{
+        margin: 5px;
+    }
+    p{
+        margin: 5px;
+    }
+}
+
+.btn-compra{
+    width: 75%;
+    max-width: 200px;
+    background-color: white;
+    color: $verdeClaro;
+    border-color: $verdeClaro;
+    border-radius: 10px;
+    &:hover{
+        background-color: $verdeClaro;
+        color: white;
+    }
+}

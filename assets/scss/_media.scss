@@ -1,3 +1,22 @@
+@media (max-width: 576px) {
+    nav{
+        flex-direction: column-reverse;
+        .logo{
+            width: 160px;
+        }
+    }
+    
+
+    .nav-link{
+        font-size: 13px;
+    }
+
+    .acomodo{
+        display: flex;
+        justify-content: center;
+    }
+}
+
 @media (min-width: 768px) {
     .parrafo{
     font-size: 20px;

@@ -1,24 +1,11 @@
 @import "configuracionGeneral";
 @import "variables";
 @import "indexMain";
+@import "tarjetas";
 @import "footer";
 @import "media";
 
-@media (max-width: 576px) {
-    nav{
-        flex-direction: column-reverse;
-        .logo{
-            width: 160px;
-        }
-    }
-    
 
-    .nav-link{
-        font-size: 13px;
-    }
-
-    .acomodo{
-        display: flex;
-        justify-content: center;
-    }
+.titulo{
+    text-align: center;
 }

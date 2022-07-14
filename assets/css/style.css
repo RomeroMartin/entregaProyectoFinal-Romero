@@ -1,7 +1,7 @@
 * {
   font-family: "Nunito", sans-serif;
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
 }
 
 .verde {
@@ -32,6 +32,38 @@
   transform: scale(1.07);
 }
 
+.tarjetaPromo {
+  border: double;
+  border-radius: 13px;
+  border-color: #349308;
+  min-width: 375px;
+  max-width: 992px;
+  height: auto;
+  margin: 10px;
+  padding: 5px;
+  font-family: "Nunito", sans-serif;
+}
+
+.textoTarjeta h3 {
+  margin: 5px;
+}
+.textoTarjeta p {
+  margin: 5px;
+}
+
+.btn-compra {
+  width: 75%;
+  max-width: 200px;
+  background-color: white;
+  color: #349308;
+  border-color: #349308;
+  border-radius: 10px;
+}
+.btn-compra:hover {
+  background-color: #349308;
+  color: white;
+}
+
 i {
   color: black;
   width: 60px;
@@ -49,16 +81,6 @@ footer div p {
   text-align: center;
 }
 
-@media (min-width: 768px) {
-  .parrafo {
-    font-size: 20px;
-  }
-}
-@media (min-width: 992px) {
-  .parrafo {
-    font-size: 25px;
-  }
-}
 @media (max-width: 576px) {
   nav {
     flex-direction: column-reverse;
@@ -73,4 +95,17 @@ footer div p {
     display: flex;
     justify-content: center;
   }
+}
+@media (min-width: 768px) {
+  .parrafo {
+    font-size: 20px;
+  }
+}
+@media (min-width: 992px) {
+  .parrafo {
+    font-size: 25px;
+  }
+}
+.titulo {
+  text-align: center;
 }
