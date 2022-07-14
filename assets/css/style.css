@@ -4,18 +4,22 @@
   padding: 0px;
 }
 
-.verde {
-  color: #1f4011;
+.titulo {
+  text-align: center;
+}
+
+.tituloCategoria, .beige, .verde {
   position: absolute;
   margin-top: 50%;
   font-size: 50px;
 }
 
+.verde {
+  color: #1f4011;
+}
+
 .beige {
   color: #FFFEBE;
-  position: absolute;
-  margin-top: 50%;
-  font-size: 50px;
 }
 
 .formatoCategoria {
@@ -27,23 +31,34 @@
 .zoom {
   transition: transform 0.2s;
 }
-
 .zoom:hover {
   transform: scale(1.07);
+}
+
+.filtro {
+  display: flex;
+  justify-content: start;
+  font-size: 10px;
+}
+.filtro ul {
+  list-style: none;
 }
 
 .tarjetaPromo {
   border: double;
   border-radius: 13px;
-  border-color: #349308;
+  border-color: #519631;
   min-width: 375px;
   max-width: 992px;
   height: auto;
   margin: 10px;
   padding: 5px;
-  font-family: "Nunito", sans-serif;
+  box-shadow: inset 1em 1em 5em #519631;
 }
 
+.textoTarjeta {
+  text-align: center;
+}
 .textoTarjeta h3 {
   margin: 5px;
 }
@@ -54,13 +69,16 @@
 .btn-compra {
   width: 75%;
   max-width: 200px;
+  padding: 5px;
   background-color: white;
-  color: #349308;
-  border-color: #349308;
-  border-radius: 10px;
+  border-bottom: solid;
+  border-width: 2px;
+  border-radius: 7px;
+  border-color: #519631;
+  color: #519631;
 }
 .btn-compra:hover {
-  background-color: #349308;
+  background-color: #519631;
   color: white;
 }
 
@@ -103,9 +121,42 @@ footer div p {
 }
 @media (min-width: 992px) {
   .parrafo {
-    font-size: 25px;
+    font-size: 28px;
   }
 }
-.titulo {
-  text-align: center;
+@media (min-width: 1200px) {
+  .parrafo {
+    font-size: 34px;
+  }
+}
+@media (min-width: 1400px) {
+  .parrafo {
+    font-size: 39px;
+  }
+}
+@media (min-width: 1650px) {
+  .parrafo {
+    font-size: 45px;
+  }
+}
+@media (min-width: 1920px) {
+  .parrafo {
+    font-size: 55px;
+  }
+}
+@media (min-width: 576px) {
+  .filtro {
+    flex-direction: column;
+    font-size: 13px;
+  }
+}
+@media (min-width: 992px) {
+  .filtro {
+    font-size: 19px;
+  }
+}
+@media (min-width: 1200px) {
+  .filtro {
+    font-size: 25px;
+  }
 }
