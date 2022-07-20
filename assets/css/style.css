@@ -44,6 +44,17 @@ body {
   box-shadow: 7px 5px 20px;
 }
 
+.colorFormulario {
+  background-color: rgb(231, 154, 92);
+  color: #fff;
+  border-color: rgb(231, 154, 92);
+}
+
+.color {
+  background-color: #f5d796;
+  border-color: rgb(231, 154, 92);
+}
+
 .btn {
   border: 0;
   background-color: #F5F2B3;
@@ -53,6 +64,10 @@ body {
 .btn:hover {
   background-color: #F5F2B3;
   box-shadow: rgb(109, 52, 6) 1px 1px 20px;
+}
+
+.btnFormulario {
+  margin-top: 10px;
 }
 
 .filtro {

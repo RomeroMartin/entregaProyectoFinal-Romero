@@ -1,0 +1,10 @@
+.colorFormulario{
+    background-color: map-get($colores, formulario);
+    color: map-get($colores, letra);
+    border-color: map-get($colores, formulario);
+}
+
+.color{
+    background-color: map-get($colores, inputColor);
+    border-color: map-get($colores, formulario);
+}
