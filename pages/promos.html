@@ -9,118 +9,98 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="../assets/css/style.css">
     </head>
     <body>
-        <header>
-          <nav class="navbar navbar-expand d-flex">
-            <div class="container-fluid">
-              <div class="collapse navbar-collapse acomodo" id="navbarNav">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link" href="../index.html">Inicio</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./nosotros.html">Nosotros</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./productos.html">Productos</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" href="./promos.html">Promos</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./contacto.html">Contacto</a>
-                  </li>
-                </ul>
-              </div>
+      <header>
+        <nav class="navbar navbar-expand d-flex">
+          <div class="container-fluid">
+            <div class="collapse navbar-collapse acomodo" id="navbarNav">
+              <ul class="navbar-nav">
+                 <li class="nav-item">
+                  <a class="nav-link" href="../index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./nosotros.html">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./productos.html">Productos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="./promos.html">Promos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./contacto.html">Contacto</a>
+                </li>
+              </ul>
             </div>
-            <div class="logo">
-              <img class="img-fluid" src="../assets/img/logoChicopng.png" alt="">
-            </div>
-          </nav>
-        </header>
-        <main class="container-fluid d-flex flex-column align-items-center">
+          </div>
+          <div class="logo">
+            <img class="img-fluid" src="../assets/img/logoChicopng.png" alt="">
+          </div>
+        </nav>
+      </header>
+      <main class="container-fluid d-flex flex-column align-items-center">
+        <div class="destacados">
+          <h1>Productos destacados de la semana</h1>
           <div class="row d-flex justify-content-center">
-            <div class="tarjetaPromo col-10 container-fluid d-flex align-items-center">
-              <div class="imgTarjeta col-6">
-                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-                  <div class="carousel-inner">
-                    <div class="carousel-item active">
-                      <img src="../assets/img/promos/promoAnimales.jpg" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                      <img src="../assets/img/promos/promoAnimales2.jpg" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                      <img src="../assets/img/promos/promoAnimales3.jpg" class="d-block w-100" alt="...">
-                    </div>
-                  </div>
-                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                  </button>
-                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                  </button>
-                </div>
+            <div class="contenedorTarjeta">
+              <img class="imgTarjeta" src="../assets/img/productos/accesorios/almohadonPerrito.jpg" alt="almohadon perrito">
+              <div class="pieTarjeta">
+                <div class="textoTarjeta">
+                  <h5>Almohadon perrito</h5>
+                  <p>$2500</p>
               </div>
-              <div class="textoTarjeta col-6 d-flex flex-column text-center align-items-center ">
-                <h3>Animales de Madera</h3>
-                <p>Los mas lindos animalitos de madera.</p>
-                <p>$2500</p>
-                <button class="btn-compra zoom" type="button">Comprar</button>
-              </div>
+              <button class="btn" type="button">Comprar</button>
             </div>
           </div>
-          <div class="row d-flex justify-content-center">
-            <div class="tarjetaPromo col-10 container-fluid d-flex align-items-center">
-              <div class="imgTarjeta col-6">
-                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-                  <div class="carousel-inner">
-                    <div class="carousel-item active">
-                      <img src="../assets/img/promos/setIngenio.jpg" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                      <img src="../assets/img/promos/setIngenio2.jpg" class="d-block w-100" alt="...">
-                    </div>
-                  </div>
-                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                  </button>
-                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                  </button>
-                </div>
+          <div class="contenedorTarjeta">
+            <img class="imgTarjeta" src="../assets/img/productos/aComer/setPlatoCucharaVaso2.jpg" alt="">
+            <div class="pieTarjeta">
+              <div class="textoTarjeta">
+                <h5>Set Plato orejitas</h5>
+                <p>$5000</p>
               </div>
-              <div class="textoTarjeta col-6 d-flex flex-column text-center align-items-center ">
-                <h3>Set de ingenio</h3>
-                <p>LLeva mas de una decena de juegos de ingenio.</p>
-                <p>$5750</p>
-                <button class="btn-compra zoom" type="button">Comprar</button>
-              </div>
+              <button class="btn" type="button">Comprar</button>
             </div>
           </div>
-        </main>
-        <footer data-aos="zoom-in" data-aos-duration="2000" class="container-fluid d-flex align-items-center ">
-          <div class="col-6">
-              <p>© Coco Baby 2022. Todos los derechos reservados</p>
+          <div class="contenedorTarjeta">
+            <img class="imgTarjeta" src="../assets/img/productos/mamis/almohadonAmamantar1.jpg" alt="">
+            <div class="pieTarjeta">
+              <div class="textoTarjeta">
+                <h5>Almohadon de amamantar</h5>
+                <p>$3500</p>
+              </div>
+              <button class="btn" type="button">Comprar</button>
+            </div>
           </div>
-          <div class="d-flex justify-content-center align-items-center col-6">
-              <a href="https://www.instagram.com/cocobaby.acc/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-              <a href="https://www.facebook.com/cocobaby.acc" target="_blank"><i class="fa-brands fa-facebook"></i></a>
-              <a href="https://api.whatsapp.com/send?phone=2213142804" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+          <div class="contenedorTarjeta">
+            <img class="imf-fluid imgTarjeta" src="../assets/img/productos/aJugar/helicoptero.jpg" alt="">
+            <div class="pieTarjeta">
+              <div class="textoTarjeta">
+                <h5>Helicoptero</h5>
+                <p>$1500</p>
+              </div>
+              <button class="btn" type="button">Comprar</button>
+            </div>
           </div>
+        </div>
+      </main>
+      <footer data-aos="zoom-in" data-aos-duration="2000" class="container-fluid d-flex align-items-center ">
+        <div class="col-6">
+          <p>© Coco Baby 2022. Todos los derechos reservados</p>
+        </div>
+        <div class="d-flex justify-content-center align-items-center col-6">
+          <a href="https://www.instagram.com/cocobaby.acc/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.facebook.com/cocobaby.acc" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+          <a href="https://api.whatsapp.com/send?phone=2213142804" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
       </footer>
-  </main>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script>
-      AOS.init();
-    </script>
-</body>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
+    </body>
 </html>

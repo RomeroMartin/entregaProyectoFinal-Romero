@@ -1,0 +1,11 @@
+.btn{
+    border: 0;
+    background-color: map-get($colores, boton);
+    box-shadow: map-get($colores, sombras) 1px 1px 10px;
+    border-radius: 10px;
+    &:hover{
+        @extend .zoom;
+        background-color: map-get($colores, boton);
+        box-shadow: map-get($colores, sombras) 1px 1px 20px;
+    }
+}

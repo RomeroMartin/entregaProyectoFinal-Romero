@@ -1,5 +1,5 @@
 i{
-    color: black;
+    color: map-get($colores, socialMedia);
     width: 60px;
     opacity: .70;
     &:hover{

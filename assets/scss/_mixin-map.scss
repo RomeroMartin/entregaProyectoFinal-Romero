@@ -1,0 +1,11 @@
+@mixin tamanioTarjeta($a, $h) {
+    width: $a;
+    height: $h;
+}
+
+$colores:(
+    boton: #F5F2B3,
+    sombras: rgb(109, 52, 6),
+    formulario: rgb(179, 81, 1),
+    socialMedia: #000
+)
