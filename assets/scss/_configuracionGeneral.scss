@@ -4,6 +4,15 @@
     padding: 0px;
 }
 
+html{
+    overflow-x: hidden;
+}
+
 body{
     background-color: #f0e5b6;
+}
+
+.nav-link{
+    font-size: 13px;
+    font-weight: 600;
 }
