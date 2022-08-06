@@ -4,7 +4,7 @@
   padding: 0px;
 }
 
-html {
+.html {
   overflow-x: hidden;
 }
 
@@ -37,8 +37,7 @@ body {
 
 .formatoCategoria {
   border-radius: 5%;
-  margin: 5px;
-  padding: 2px;
+  margin: 7px;
 }
 
 .zoom, .contenedorTarjeta:hover, .btn:hover {
@@ -46,6 +45,12 @@ body {
 }
 .zoom:hover, .contenedorTarjeta:hover, .btn:hover {
   transform: scale(1.07);
+}
+
+.indexSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .parrafos {
@@ -92,12 +97,13 @@ body {
 }
 
 .destacados {
-  border-bottom: solid;
-  border-width: 2px;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding-bottom: 20px;
+}
+.destacados h1 {
+  text-align: center;
 }
 
 .contenedorTarjeta {
@@ -119,11 +125,40 @@ body {
   height: 100%;
 }
 
+.textoTarjeta p {
+  font-size: 28px;
+}
+
 .imgTarjeta {
   width: 230px;
   height: 300px;
   border-radius: 15px;
   padding: 10px;
+}
+
+.forma {
+  max-width: 350px;
+  height: 100px;
+}
+.forma .mediosDePago {
+  border-radius: 50px;
+  box-shadow: rgb(109, 52, 6) 7px 5px 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.forma .mediosDePago p {
+  font-weight: 600;
+  text-align: center;
+  margin: 0;
+}
+.forma .mediosDePago .iFormato {
+  display: flex;
+  justify-content: center;
+}
+.forma .mediosDePago .iFormato i {
+  width: 35px;
 }
 
 i {
@@ -177,6 +212,13 @@ footer div p {
   }
   i {
     font-size: 20px;
+  }
+}
+@media (min-width: 769px) {
+  .indexSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
   }
 }
 @media (min-width: 992px) {

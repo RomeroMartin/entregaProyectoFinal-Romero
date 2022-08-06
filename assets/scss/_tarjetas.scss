@@ -1,10 +1,11 @@
 .destacados{
-    border-bottom: solid;
-    border-width: 2px ;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-bottom: 20px;
+    h1{
+        text-align: center;
+    }
 }
 
 .contenedorTarjeta{
@@ -29,9 +30,38 @@
     height: 100%;
 }
 
+.textoTarjeta p{
+    font-size: 28px;
+}
+
 .imgTarjeta{
     width: 230px;
     height: 300px;
     border-radius: 15px;
     padding: 10px;
+}
+
+.forma{
+    max-width: 350px;
+    height: 100px;
+    .mediosDePago{
+        border-radius: 50px;
+        box-shadow: map-get($colores, sombras) 7px 5px 20px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        p{
+            font-weight: 600;
+            text-align: center;
+            margin: 0;
+        }
+        .iFormato{
+            display: flex;
+            justify-content: center;
+            i{
+                width: 35px;
+            }
+        }
+    }
 }

@@ -40,6 +40,14 @@
     }
 }
 
+@media (min-width: 769px) {
+    .indexSection{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+}
+
 @media (min-width: 992px) {
     .nav-link{
         font-size: 22px;

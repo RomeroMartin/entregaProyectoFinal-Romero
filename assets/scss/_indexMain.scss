@@ -20,8 +20,7 @@
 
 .formatoCategoria{
     border-radius: 5%;
-    margin: 5px;
-    padding: 2px;
+    margin: 7px;
 }
 
 .zoom {
@@ -29,4 +28,10 @@
     &:hover{
         transform: scale(1.07);
     }
+}
+
+.indexSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
