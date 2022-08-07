@@ -7,7 +7,7 @@
     }
     
     .nav-link{
-        font-size: 13px;
+        font-size: 16px;
     }
 
     .acomodo{
@@ -16,17 +16,12 @@
     }
 }
 
-
-@media (min-width: 0px) {
-    .boton1{
-        display: none;
-    }
-
-    .boton2{
-        margin: 15px;
+@media (min-width: 375px) {
+    .nav-link{
+        font-size: 16px;
+        font-weight: 600;
     }
 }
-
 @media (min-width: 576px) {
     .nav-link{
         font-size: 18px;

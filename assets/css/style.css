@@ -12,9 +12,12 @@ body {
   background-color: #f0e5b6;
 }
 
-.nav-link {
-  font-size: 13px;
-  font-weight: 600;
+.boton1 {
+  display: none;
+}
+
+.boton2 {
+  margin: 15px;
 }
 
 .titulo {
@@ -210,19 +213,17 @@ footer div p {
     width: 160px;
   }
   .nav-link {
-    font-size: 13px;
+    font-size: 16px;
   }
   .acomodo {
     display: flex;
     justify-content: center;
   }
 }
-@media (min-width: 0px) {
-  .boton1 {
-    display: none;
-  }
-  .boton2 {
-    margin: 15px;
+@media (min-width: 375px) {
+  .nav-link {
+    font-size: 16px;
+    font-weight: 600;
   }
 }
 @media (min-width: 576px) {
