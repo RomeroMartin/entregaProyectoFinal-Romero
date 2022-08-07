@@ -17,12 +17,22 @@
 }
 
 
+@media (min-width: 0px) {
+    .boton1{
+        display: none;
+    }
+
+    .boton2{
+        margin: 15px;
+    }
+}
 
 @media (min-width: 576px) {
     .nav-link{
         font-size: 18px;
         font-weight: 600;
     }
+
     .filtro{
         height: fit-content;
         position: sticky;
@@ -31,20 +41,35 @@
         justify-content: start;
         font-size: 13px;
     }
+
     .borde{
         border-left: solid;
         border-width: 1px;
     }
+
     i{
         font-size: 20px;
     }
 }
 
-@media (min-width: 769px) {
+@media (min-width: 768px) {
     .indexSection{
         display: flex;
         flex-direction: row;
         justify-content: center;
+    }
+
+    .banner{
+        flex-direction: row;
+    }
+
+    .boton1{
+        display: inline;
+        margin: 10px;
+    }
+
+    .boton2{
+        display: none;
     }
 }
 
